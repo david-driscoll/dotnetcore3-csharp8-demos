@@ -4,9 +4,9 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <RootNamespace>assembly_linking</RootNamespace>
-    <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
-    <!-- <PublishSingleFile>true</PublishSingleFile> -->
+    <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
     <!-- <PublishTrimmed>true</PublishTrimmed> -->
+    <!-- <PublishSingleFile>true</PublishSingleFile> -->
   </PropertyGroup>
 
 </Project>
