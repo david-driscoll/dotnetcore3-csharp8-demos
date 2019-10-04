@@ -5,6 +5,9 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <AssemblyName>HelloWorld</AssemblyName>
     <UseWPF>true</UseWPF>
+    <!--<PublishTrimmed>true</PublishTrimmed>-->
+     <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
+     <PublishSingleFile>true</PublishSingleFile>  
   </PropertyGroup>
 
   <ItemGroup>

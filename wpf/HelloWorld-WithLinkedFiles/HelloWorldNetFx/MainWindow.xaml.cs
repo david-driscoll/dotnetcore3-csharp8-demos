@@ -16,8 +16,8 @@ using System.Windows.Shapes;
 
 namespace HelloWorld
 {
-    /    /// Interaction logic for MainWindow.xaml
-    /    public partial class MainWindow : Window
+        /// Interaction logic for MainWindow.xaml
+        public partial class MainWindow : Window
     {
         public MainWindow()
         {

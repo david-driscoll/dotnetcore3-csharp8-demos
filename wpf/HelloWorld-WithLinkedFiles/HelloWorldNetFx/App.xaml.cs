@@ -8,8 +8,8 @@ using System.Windows;
 
 namespace HelloWorld
 {
-    /    /// Interaction logic for App.xaml
-    /    public partial class App : Application
+        /// Interaction logic for App.xaml
+        public partial class App : Application
     {
     }
 }
