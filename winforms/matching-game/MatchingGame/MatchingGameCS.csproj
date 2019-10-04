@@ -6,9 +6,12 @@
     <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>MatchingGame</RootNamespace>
     <AssemblyName>MatchingGame</AssemblyName>
+    <!--<PublishTrimmed>true</PublishTrimmed>-->
+    <!-- <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
+     <PublishSingleFile>true</PublishSingleFile>  -->
 
     <!-- Don't automatically generate assembly info attributes
-         found in AssemblyInfo.cs. This property is useful for 
+         found in AssemblyInfo.cs. This property is useful for
          applications ported from NetFx, which may have used
          AssemblyInfo.cs -->
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>

@@ -60,7 +60,7 @@ namespace MatchingGame
         /// <summary>
         /// Every label's Click event is handled by this event handler.
         /// </summary>
-        /        /        private void label_Click(object sender, EventArgs e)
+                        private void label_Click(object sender, EventArgs e)
         {
             // The timer is only on after two non-matching
             // icons have been shown to the player,
@@ -126,7 +126,7 @@ namespace MatchingGame
         /// so it counts three quarters of a second
         /// and then turns itself off and hides both icons.
         /// </summary>
-        /        /        private void timer1_Tick(object sender, EventArgs e)
+                        private void timer1_Tick(object sender, EventArgs e)
         {
             // Stop the timer.
             timer1.Stop();

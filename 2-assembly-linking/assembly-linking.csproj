@@ -4,6 +4,8 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <RootNamespace>assembly_linking</RootNamespace>
+    <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
+    <!-- <RuntimeIdentifier>linux-x64</RuntimeIdentifier> -->
     <!-- dotnet publish -r linux-x64 -c Release -->
     <!-- dotnet publish -r win10-x64 -c Release -->
     <PublishTrimmed>true</PublishTrimmed>

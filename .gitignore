@@ -1,3 +1,6 @@
 *.dll
 bin/
 obj/
+.vs/
+codealike.json
+*.user
