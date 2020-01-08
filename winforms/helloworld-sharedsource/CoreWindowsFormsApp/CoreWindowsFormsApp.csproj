@@ -2,10 +2,10 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-   <ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\WindowsFormsForm\WindowsFormsForm.csproj" />
   </ItemGroup>
 

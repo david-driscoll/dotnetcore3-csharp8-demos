@@ -9,8 +9,8 @@ namespace WindowsFormsApp
 {
     static class Program
     {
-        /        /// The main entry point for the application.
-        /        [STAThread]
+        /// The main entry point for the application.
+        [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
@@ -23,13 +23,13 @@ namespace WindowsFormsApp
         static void UpdateForm(Form1 form)
         {
             var dict = new Dictionary<string, string>();
-#if NETCOREAPP3_0
-            dict.Add("label1", "Hello .NET Core");
-#else
-            dict.Add("label1", "Hello .NET Framework");
-#endif
 
-            form.UpdateLabels(dict);
+            /* Unmerged change from project 'WindowsFormsApp'
+            Before:
+            #if NETCOREAPP3_1
+            After:
+            #if NETCOREAPP
+            */         form.UpdateLabels(dict);
         }
     }
 }

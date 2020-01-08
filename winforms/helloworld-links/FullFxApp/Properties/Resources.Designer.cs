@@ -31,8 +31,8 @@ namespace HelloWorld.Properties
         {
         }
 
-        /        ///   Returns the cached ResourceManager instance used by this class.
-        /        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        ///   Returns the cached ResourceManager instance used by this class.
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         internal static global::System.Resources.ResourceManager ResourceManager
         {
             get
@@ -46,9 +46,9 @@ namespace HelloWorld.Properties
             }
         }
 
-        /        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
-        /        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         internal static global::System.Globalization.CultureInfo Culture
         {
             get

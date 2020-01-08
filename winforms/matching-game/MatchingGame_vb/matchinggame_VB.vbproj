@@ -2,16 +2,17 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>MatchingGame</RootNamespace>
     <AssemblyName>MatchingGame</AssemblyName>
 
     <!-- Don't automatically generate assembly info attributes
-         found in AssemblyInfo.vb. This property is useful for 
+         found in AssemblyInfo.vb. This property is useful for
          applications ported from NetFx, which may have used
          AssemblyInfo.vb -->
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
-  <UseWindowsForms>true</UseWindowsForms></PropertyGroup>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
 
   <ItemGroup></ItemGroup>
 
